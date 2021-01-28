@@ -1,0 +1,24 @@
+body {
+  margin: 40px 10px;
+  padding: 0;
+  font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+#calendar {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+#mydraggable .fc-event {
+  cursor: move;
+  margin: 3px 0;
+}
+
+.fc-toolbar-chunk {
+  display: flex;
+}
+
+.fc-license-message {
+  display: none;
+}
